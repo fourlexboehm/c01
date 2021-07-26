@@ -1,6 +1,4 @@
-#include <unistd.h>
-
-void	ft_div_mod( int *a, int *b)
+void	ft_ultimate_div_mod( int *a, int *b)
 {
 	int	mod;
 	int	div;
@@ -20,7 +18,7 @@ int	main(void)
 	a = 234;
 	b = 142;
 	printf("A is: %d\n B is: %d\n", a, b);
-	ft_div_mod(&a, &b);
+	ft_ultimate_div_mod(&a, &b);
 	printf("A is: %d\n B is: %d\n", a, b);
 	return (0);
 }
